@@ -37,10 +37,11 @@ The Dispatch Load Balancer is designed to efficiently assign delivery orders to 
 ##Build and Run ## :-     *mvn clean install*
                           *mvn spring-boot:run*
               
-##List of APIs
--**GET /api/dispatch/plan**:- *Retrieves the dispatch plan with assigned orders for vehicles.*
--**Post/api/dispatch/orders**:- *Adds new delivery orders to the system.*
--**Post/api/dispatch/vehicles**:-*Registers new vehicles for order assignments.*
+## List of APIs
+
+- **GET /api/dispatch/plan**:- *Retrieves the dispatch plan with assigned orders for vehicles.*
+- **Post/api/dispatch/orders**:- *Adds new delivery orders to the system.*
+- **Post/api/dispatch/vehicles**:-*Registers new vehicles for order assignments.*
 
 
 
