@@ -26,13 +26,19 @@ The Dispatch Load Balancer is designed to efficiently assign delivery orders to 
 - **Grocery Delivery**: Ensuring perishable items reach customers on time.
 
 
-## How to Run:-
-**Clone the Repository**:-*git clone https://github.com/your-username/your-repo.gitcd dispatch-load-balancer*
-**Set Up the Database**:- *spring.datasource.url=jdbc:mysql://localhost:3306/dispatch_db*
-                          *spring.datasource.username=root*
-                          *spring.datasource.password=root*
-                          *spring.security.user.name=admin*
-                          *spring.security.user.password=admin123*
+## How to Run
+
+**Clone the Repository**
+
+- *git clone https://github.com/your-username/your-repo.gitcd dispatch-load-balancer*
+  
+**Set Up the Database**
+
+- *spring.datasource.url=jdbc:mysql://localhost:3306/dispatch_db*
+- *spring.datasource.username=root*
+- *spring.datasource.password=root*
+- *spring.security.user.name=admin*
+- *spring.security.user.password=admin123*
                     
 ##Build and Run ## :-     *mvn clean install*
                           *mvn spring-boot:run*
